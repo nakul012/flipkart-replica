@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima&family=Roboto:ital,wght@1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  background-color: black;
+  height: 70px;
+  color: white;
+  font-family: "Agdasima", sans-serif;
+}
+header {
+  background-color: #2874f0;
+  height: 100px;
+}
+.logo {
+  position: relative;
+  bottom: -13px;
+  left: 73px;
+}
+img {
+  height: 71px;
+  width: 118px;
+}
+
+.container {
+  min-height: calc(100vh - 60px - 100px);
+}
+
+nav ul {
+  position: absolute;
+  right: 830px;
+  bottom: 670px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  white-space: -moz-pre-space;
+}
+nav ul li a {
+  color: white;
+  font-family: "Agdasima", sans-serif;
+  text-decoration: none;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+.search input {
+  height: 30px;
+  width: 357px;
+  padding: 1px 12px;
+  margin: -39px 65px;
+  position: relative;
+  left: 150px;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  font-weight: bolder;
+}
+
+.btn {
+  position: relative;
+  left: 100px;
+  bottom: 1065px;
+  top: -36px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: #2874f0;
+  border: 2px solid #afc7d3;
+  cursor: pointer;
+  font-family: "Agdasima", sans-serif;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.slider img {
+  height: 400px;
+  width: 800px;
+}
+
+.card {
+  position: relative;
+  left: 20vh;
+  top: 3px;
+  width: 1200px;
+}
+
+.card h2 {
+  font-family: "Agdasima", sans-serif;
+}
+
+.card-item {
+  display: inline-flex;
+  flex-direction: column;
+  width: 135px;
+  margin: 7px 10px;
+}
+
+.card-item img {
+  position: relative;
+  left: 13px;
+}
